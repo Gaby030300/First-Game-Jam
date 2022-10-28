@@ -294,7 +294,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.327}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38, y: -33}
+  m_AnchoredPosition: {x: 73, y: -33}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &383303194
@@ -333,8 +333,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Videogame created for \nThe First Generation Game Jam.\nGame Devs: Luis
-    Medina, Gabriela Bohorquez\nGame Artist: Andres Pi\xF1eros.\nSounds and Effects:
-    FreeSounds.com\n                                               Version 1.0.2022"
+    Medina, Gabriela Bohorquez\nGame Artist: Andres Pi\xF1eros.\nAssets: PixilArt.com\nSounds
+    and Effects: FreeSounds.com\n                                               Version
+    1.0.2022"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc543c0f92478834b8c13c0df1e189cb, type: 2}
   m_sharedMaterial: {fileID: -1118259585730081357, guid: fc543c0f92478834b8c13c0df1e189cb, type: 2}

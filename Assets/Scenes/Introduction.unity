@@ -606,8 +606,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xBFDonde estoy?... \xBFQu\xE9 es este lugar? \xA1Ayudame, haz clic en
-    el boton de arriba!"
+  m_Text: Where am I?... What is this place? Help me, click the button above this
+    box!
 --- !u!222 &116420547
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -710,7 +710,6 @@ RectTransform:
   m_Children:
   - {fileID: 1607118075}
   - {fileID: 623010774}
-  - {fileID: 1702741087}
   - {fileID: 1725297040}
   - {fileID: 754291466}
   m_Father: {fileID: 0}
@@ -927,12 +926,12 @@ RectTransform:
   m_Children:
   - {fileID: 2002696355}
   m_Father: {fileID: 1725297040}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.7869263, y: -1.4315033}
-  m_SizeDelta: {x: 600, y: 700}
+  m_AnchoredPosition: {x: -8.3, y: -1.48}
+  m_SizeDelta: {x: 500, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &473517454
 MonoBehaviour:
@@ -954,7 +953,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7b26e9500c7aed849b1bedf66b475a4d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f0bfab34ac72b0a4ca06a42145d795bf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1027,9 +1026,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9afa28b8c582da440878a51ecebf6a29, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 83124e281228cc348a91f14aa7634808, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.45
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1383,7 +1382,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2118697646430384790, guid: d98c08eabc980cb43af59cf72a5939a9, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2118697646430384790, guid: d98c08eabc980cb43af59cf72a5939a9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2021,17 +2020,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702741086}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.00008, y: 1.00008, z: 1.00008}
+  m_LocalPosition: {x: 0, y: 0, z: 39.559353}
+  m_LocalScale: {x: 0.00926, y: 0.00926, z: 0.00926}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 77363555}
-  m_Father: {fileID: 190962981}
-  m_RootOrder: 2
+  m_Father: {fileID: 1725297040}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 785, y: -285.2}
+  m_AnchoredPosition: {x: 5.472168, y: -1.8500061}
   m_SizeDelta: {x: 500, y: 509.61}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1702741088
@@ -2106,10 +2105,11 @@ Transform:
   - {fileID: 663864902}
   - {fileID: 71137963}
   - {fileID: 24020048}
-  - {fileID: 1868393707}
   - {fileID: 473517453}
+  - {fileID: 1702741087}
+  - {fileID: 1868393707}
   m_Father: {fileID: 190962981}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1725297041
 MonoBehaviour:
@@ -2125,16 +2125,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panel: {fileID: 1286640033}
   initialDialogue:
-  - "\xBFQu\xE9 es este lugar tan familiar?"
-  - "\xBFDonde esta mi silla de ruedas? \xA1No puedo perderla!"
-  - "\xBFQu\xE9 hacen todas mis cosas aqu\xED? \xBFMi moto? \xBFMi bicicleta? \xBFMi
-    caballo?"
-  - "\xA1Hey, ni\xF1a! \xBFT\xFA quien eres? \xBFT\xFA robaste mis ruedas?"
+  - What is this place so familiar?
+  - Where is my wheelchair? I can't lose it!
+  - What are all my things doing here? my motorcycle? My bike? My horse?
+  - Hey girl! Who are you? Did you steal it?
   closingDialogue:
-  - "Tita, \xA1as\xED nos llaman ahora! \xBFNo me reconoces?\xA1Soy t\xFA!"
-  - "\xBFA\xFAn te gusta andar sobre ruedas como antes, verdad?"
-  - "\xA1Se que s\xED! \xA1Es hora de irnos! Vamos a recordar un poco esos paseos
-    sobre ruedas."
+  - Tita, that's what they call us now! Don't you recognize me?
+  - Do you still love riding on wheels like before, right?
+  - I think so! It's time to go! Let's remember a little of those rides on wheels.
   txtDialogue: {fileID: 116420546}
   isDialogueActive: 0
   startButton: {fileID: 71137967}
@@ -2272,7 +2270,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1725297040}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2435,8 +2433,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -195, y: 347}
-  m_SizeDelta: {x: 120, y: 120}
+  m_AnchoredPosition: {x: -171, y: 347}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &2002696356
 Animator:
