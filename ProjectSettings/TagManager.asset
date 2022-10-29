@@ -3,15 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Draw
+  - Line
+  - Canvas
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Line
   - Water
   - UI
-  - 
+  - Draw
   - 
   - 
   - 
