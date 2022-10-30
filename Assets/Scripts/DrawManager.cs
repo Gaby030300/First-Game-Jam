@@ -34,9 +34,7 @@ public class DrawManager : MonoBehaviour
         {
             Instantiate(prefab, mousePos, Quaternion.identity);
         }
-        
-
-
-
+       //_currentLine.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform);
     }
+
 }

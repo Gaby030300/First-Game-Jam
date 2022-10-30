@@ -7,6 +7,7 @@ public class ScenesController : MonoBehaviour
 {
     public AudioClip buttonSFX;
     private AudioSource audiosource;
+
     private void Awake()
     {
         audiosource = GetComponent<AudioSource>();
@@ -26,5 +27,6 @@ public class ScenesController : MonoBehaviour
         audiosource.PlayOneShot(buttonSFX);
         SceneManager.LoadScene("Level1");
     }
+
 
 }
