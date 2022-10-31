@@ -8,3 +8,6 @@ In an oversight, Anna an 85-year-old woman closes her eyes to relive her best me
 # GAME DESIGN DOCUMENTS (GDDs)
 1. TinyGDD:
 [TinyGDD.pdf](https://github.com/Gaby030300/First-Game-Jam/files/9898472/TinyGDD.pdf)
+
+# GESTIÓN DEL PROYECTO
+Enlace JIRA: https://desarrollounity01.atlassian.net/jira/software/projects/DVU/boards/1
