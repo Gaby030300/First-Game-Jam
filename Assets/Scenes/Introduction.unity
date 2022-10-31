@@ -616,6 +616,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 116420544}
   m_CullTransparentMesh: 1
+--- !u!28 &180830315
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 1
+  m_Height: 1
+  m_CompleteImageSize: 3
+  m_MipsStripped: 0
+  m_TextureFormat: 3
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMasterTextureLimit: 0
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 0
+  m_PlatformBlob: 
+  image data: 3
+  _typelessdata: 000000
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &190962977
 GameObject:
   m_ObjectHideFlags: 0
@@ -894,6 +941,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 262734118}
   m_CullTransparentMesh: 1
+--- !u!114 &456601501 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4792530284909051448, guid: 232563b2d5d80c140b4fdc49bc2f83d8, type: 3}
+  m_PrefabInstance: {fileID: 623010773}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &473517452
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,6 +1040,7 @@ GameObject:
   - component: {fileID: 537255045}
   - component: {fileID: 537255044}
   - component: {fileID: 537255042}
+  - component: {fileID: 537255046}
   m_Layer: 0
   m_Name: SoundManager
   m_TagString: Untagged
@@ -1112,6 +1171,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &537255046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537255041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c98a07c19a703414caf1aa3c59031d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnButton: {fileID: 587978036}
+  OffButton: {fileID: 456601501}
+--- !u!114 &587978036 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4792530283727501548, guid: 232563b2d5d80c140b4fdc49bc2f83d8, type: 3}
+  m_PrefabInstance: {fileID: 623010773}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &623010773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1206,7 +1290,7 @@ PrefabInstance:
     - target: {fileID: 4792530283769078243, guid: 232563b2d5d80c140b4fdc49bc2f83d8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 537255046}
     - target: {fileID: 4792530283769078243, guid: 232563b2d5d80c140b4fdc49bc2f83d8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnButtonPress
@@ -1558,6 +1642,7 @@ GameObject:
   - component: {fileID: 1346359178}
   - component: {fileID: 1346359177}
   - component: {fileID: 1346359176}
+  - component: {fileID: 1346359179}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1592,9 +1677,9 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 0.00202623
     y: 0
-    width: 1
+    width: 0.99594754
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
@@ -1631,6 +1716,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1346359179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346359175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37c2ffb89582d4d4780b25e52c43ec45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAspect: 1.77
+  borderColor: {r: 0, g: 0, b: 0, a: 0}
+  _border: {fileID: 180830315}
 --- !u!1 &1528835160
 GameObject:
   m_ObjectHideFlags: 0
