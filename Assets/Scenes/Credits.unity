@@ -905,6 +905,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: RestartAudio, Assembly-CSharp
+        m_MethodName: RetornarAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1267006336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1397,8 +1409,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1113.7, y: -449.27}
-  m_SizeDelta: {x: 480, y: 480}
+  m_AnchoredPosition: {x: 1045.4, y: -434.71}
+  m_SizeDelta: {x: 367.99, y: 557.01}
   m_Pivot: {x: 1.2619021, y: 0.18901938}
 --- !u!114 &1905755676
 MonoBehaviour:
@@ -1420,7 +1432,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 16137559a52a0014591ea7763b697105, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1150376994a89164982f56143617fc4d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1691,8 +1703,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -628, y: -305}
-  m_SizeDelta: {x: 550, y: 550}
+  m_AnchoredPosition: {x: -708.5, y: -194.74}
+  m_SizeDelta: {x: 388.99, y: 770.51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1958652691
 MonoBehaviour:
@@ -1714,7 +1726,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d299d48f84b450c488b4b232de1d7e8f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0e3a125de2aa6ff4c8a705e8e0f0bfac, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

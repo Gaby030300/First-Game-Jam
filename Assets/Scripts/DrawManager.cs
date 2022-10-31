@@ -9,13 +9,13 @@ public class DrawManager : MonoBehaviour
     public GameObject prefab;
     public const float RESOLUTION = 0.1f;
     private Line _currentLine;
-    // Start is called before the first frame update
+
     void Start()
     {
-        _cam = Camera.main;
+        _cam = Camera.main;        
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         Vector2 mousePos = _cam.ScreenToWorldPoint(Input.mousePosition);
@@ -33,8 +33,8 @@ public class DrawManager : MonoBehaviour
         if (Input.GetMouseButtonDown(1))
         {
             Instantiate(prefab, mousePos, Quaternion.identity);
-        }
-       //_currentLine.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform);
-    }
+        }   
 
+    }
+   
 }

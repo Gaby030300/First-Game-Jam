@@ -1,19 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Wall : MonoBehaviour
 {
-    // Start is called before the first frame update
-
     void OnMouseOver()
-    {
-        //print(gameObject.name); //If o condicion de reiniciar el nivel
+    {        
         if (gameObject.CompareTag("Line"))
-        {
-            Debug.Log("Toco collider");          
-
-
-        }
+        {            
+           SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }        
     }
 }

@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LevelController : MonoBehaviour
+public class InstructionsController : MonoBehaviour
 {
-    [SerializeField]
-    GameObject panelInstructions;
+    
+    public GameObject panelInstructions;
 
     public AudioClip buttonSFX;
     private AudioSource audiosource;
@@ -28,7 +28,7 @@ public class LevelController : MonoBehaviour
             panelInstructions.SetActive(false);
         }
     }
-    public void OnButtonCredits()
+    public void OnButtonActivePanel()
     {
         audiosource.PlayOneShot(buttonSFX);
         panelInstructions.SetActive(true);

@@ -9,18 +9,19 @@ public class Line : MonoBehaviour
 
     private readonly List<Vector2> _points = new List<Vector2>();
     private int i = 0;
-    
+
+    private GameOverController gameOver;
+
     void Start()
     {
         _collider.transform.position -= transform.position;
+        gameOver = FindObjectOfType<GameOverController>();        
 
     }
 
     public void SetPosition(Vector2 pos)
     {
         if (!CanAppend(pos)) return;
-        //Debug.Log(_renderer.GetPosition(0));
-        //Debug.Log(Vector2.Distance(_renderer.GetPosition(0), _renderer.GetPosition(_renderer.positionCount - 1))   );
         _points.Add(pos);
         _renderer.positionCount++;
         _renderer.SetPosition(_renderer.positionCount-1, pos);
@@ -33,7 +34,7 @@ public class Line : MonoBehaviour
             i++;
             if (i == 2)
             {
-                Debug.Log(" Pasar siguiente nivel");
+                gameOver.panelGameOver.SetActive(true);
             }            
         }    
     }

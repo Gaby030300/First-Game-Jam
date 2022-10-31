@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 5894432283713148877}
   - component: {fileID: 5894432283713148876}
   m_Layer: 0
-  m_Name: ColliderHorse (1)
+  m_Name: Col2
   m_TagString: Line
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -467,7 +467,7 @@ GameObject:
   - component: {fileID: 5894432285257278095}
   - component: {fileID: 5894432285257278094}
   m_Layer: 0
-  m_Name: CollideHorse
+  m_Name: Col1
   m_TagString: Line
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
