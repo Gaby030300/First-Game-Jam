@@ -392,7 +392,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!28 &489685923
+--- !u!28 &676181852
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1531,9 +1531,9 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.00202623
+    x: 0.0021875203
     y: 0
-    width: 0.99594754
+    width: 0.99562496
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
@@ -1592,7 +1592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAspect: 1.77
   borderColor: {r: 0, g: 0, b: 0, a: 0}
-  _border: {fileID: 489685923}
+  _border: {fileID: 676181852}
 --- !u!1 &1513626093
 GameObject:
   m_ObjectHideFlags: 0

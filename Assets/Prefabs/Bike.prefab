@@ -129,8 +129,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902206565602463555}
-  - component: {fileID: 2902206565602463558}
   - component: {fileID: 2902206565602463553}
+  - component: {fileID: 2902206565602463558}
   - component: {fileID: 2902206565602463552}
   m_Layer: 0
   m_Name: Col1
@@ -154,27 +154,6 @@ Transform:
   m_Father: {fileID: 2902206566576570781}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &2902206565602463558
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2902206565602463554}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
 --- !u!60 &2902206565602463553
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -205,18 +184,23 @@ PolygonCollider2D:
       - {x: -0.6998134, y: 0.6808561}
       - {x: -0.75453806, y: 0.804912}
       - {x: -0.44250882, y: 0.82873404}
-      - {x: -0.1952227, y: 2.0224714}
-      - {x: 1.88184, y: 1.2671604}
-      - {x: 3.966346, y: -0.4113053}
-      - {x: 3.9593146, y: -1.551228}
-      - {x: 3.1520398, y: -2.3963063}
-      - {x: 1.3830467, y: -2.4362428}
-      - {x: -0.22973955, y: -1.8138714}
-      - {x: -1.0639281, y: -2.2214975}
+      - {x: 0.37210026, y: 1.7671762}
+      - {x: 1.0968561, y: 1.5690773}
+      - {x: 1.718189, y: 0.38551491}
+      - {x: 2.6681855, y: 0.42229426}
+      - {x: 3.634238, y: -0.38111362}
+      - {x: 3.597015, y: -1.460653}
+      - {x: 3.0010815, y: -2.2755394}
+      - {x: 1.6245803, y: -2.3758593}
+      - {x: 0.8968915, y: -1.4353094}
+      - {x: 0.34012657, y: -1.1143911}
+      - {x: -0.73298216, y: -1.2204467}
+      - {x: -0.88216096, y: -1.4734776}
+      - {x: -1.3759556, y: -2.1647651}
       - {x: -2.4595716, y: -2.513628}
-      - {x: -3.7300625, y: -2.1686397}
-      - {x: -4.0950584, y: -0.9175382}
-      - {x: -3.164076, y: 0.38628203}
+      - {x: -3.3896685, y: -1.7431474}
+      - {x: -3.6979327, y: -0.5771444}
+      - {x: -3.0222452, y: 0.15935284}
       - {x: -1.62788, y: 0.5804631}
       - {x: -1.4769667, y: 1.2185041}
       - {x: -0.36510158, y: 1.2549025}
@@ -274,6 +258,27 @@ PolygonCollider2D:
       - {x: 0.39213458, y: 1.2387065}
       - {x: 0.876191, y: 1.2307918}
       - {x: 1.1475866, y: 0.684211}
+--- !u!50 &2902206565602463558
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2902206565602463554}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!114 &2902206565602463552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -591,3 +596,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b06813d666f878418de69959353753f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  colliders: []
